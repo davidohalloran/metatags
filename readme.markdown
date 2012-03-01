@@ -4,8 +4,10 @@ I wrote this out of annoyance at all the other metatag generation gems there are
 
 Use add_meta and pass a hash of whatever attributes you want the metatag to have. The attributes are passed to Rails' tag helper to generate the meta tag. Simples.
 
+In your Gemfile...
+
 ```
-gem install 'metatags'
+gem 'metatags'
 ```
 
 In your controller...
