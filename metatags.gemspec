@@ -5,9 +5,9 @@ require 'metatags/version'
 Gem::Specification.new do |s|
   s.name = "metatags"
   s.author = "John Butler"
-  s.email = "johnnypez@gmail.com"
-  s.homepage = "http://github.com/johnnypez/metatags"
-  s.summary = "A simple meta tag generator that doesn't fuck with the attributes that you're setting."
+  s.email = "john.butler@betapond.com"
+  s.homepage = "http://github.com/betapond/metatags"
+  s.summary = "A simple meta tag generator that doesn't screw with the attributes that you're setting."
   s.files = Dir["{lib}/**/*"] + ["readme.markdown"]
   s.version = Metatags::VERSION
 end
