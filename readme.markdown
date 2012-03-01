@@ -40,4 +40,4 @@ This could also be written like:
 add_meta({:property => 'og:image'}) { {:content => path_to_image('image.jpg')} }
 ```
 
-The hash returned from the lamda gets merged with the set of attributes passed to the method.
+The hash returned from the block gets merged with the set of attributes passed to the method.
