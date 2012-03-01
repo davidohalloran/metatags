@@ -6,19 +6,19 @@ Use add_meta and pass a hash of whatever attributes you want the metatag to have
 
 In your Gemfile...
 
-```
+```ruby
 gem 'metatags'
 ```
 
 In your controller...
 
-```
+```ruby
 add_meta :property => 'og:title', :content => 'Lorem Ipsum'
 ```
 
 In your layout...
 
-```
+```ruby
 <%= metatags %>
 ```
 
@@ -32,13 +32,13 @@ What you get...
 
 You can optionally pass a lambda to add_meta which will be evaluated in context of the view, this is useful when you need to access view helpers.
 
-```
+```ruby
 add_meta { {:property => 'og:image', :content => path_to_image('image.jpg')} }
 ```
 
 This could also be written like:
 
-```
+```ruby
 add_meta({:property => 'og:image'}) { {:content => path_to_image('image.jpg')} }
 ```
 
