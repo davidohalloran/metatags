@@ -30,7 +30,7 @@ What you get...
 
 #Lazy evaluation
 
-You can optionally pass a lambda to add_meta which will be evaluated in context of the view, this is useful when you need to access view helpers.
+You can optionally pass a block to add_meta which will be evaluated in context of the view, this is useful when you need to access view helpers.
 
 ```ruby
 add_meta { {:property => 'og:image', :content => path_to_image('image.jpg')} }
